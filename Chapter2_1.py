@@ -30,5 +30,5 @@ while True :
     print('t : ', t, ', r1 : ', ball1.pos.x, ', r2 : ', ball2.pos.x) #값 출력
     g_ball_x1.plot(pos = (t, ball1.pos.x)) #그래프 그리기
     g_ball_x2.plot(pos = (t, ball2.pos.x)) #그래프 그리기
-    if t > 10 :
-        break
+    if t > 10 : #만약 시간이 10초가 지나면
+        break #무한 반복 멈춤
